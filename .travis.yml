@@ -1,8 +1,7 @@
 language: node_js
 node_js:
   - "4"
-install:
-  -
+script:
 deploy:
   provider: s3
   access_key_id: "AKIAIGEHZO373H6MTW6Q"
