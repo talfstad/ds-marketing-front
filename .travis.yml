@@ -11,5 +11,7 @@ deploy:
   region: us-west-1
   local_dir: public
   cache_control: "max-age=31536000"
+  on:
+    branch: /^.*$/
 after_deploy:
   - node ./ci/invalidate.js
