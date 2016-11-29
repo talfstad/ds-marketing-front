@@ -9,6 +9,7 @@
 
   },
   "devDependencies": {
-
+    "aws-sdk": "*",
+    "uuid": "*"
   }
 }

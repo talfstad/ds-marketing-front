@@ -1,7 +1,8 @@
 language: node_js
 node_js:
   - "4"
-script:
+before_install:
+  - npm install
 deploy:
   provider: s3
   access_key_id: "AKIAIGEHZO373H6MTW6Q"
@@ -15,4 +16,4 @@ deploy:
   on:
     all_branches: true
 after_deploy:
-  - node ./ci/invalidate.js
+  - node ./ci/invalidate_test.js

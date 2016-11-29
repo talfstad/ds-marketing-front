@@ -1,4 +1,8 @@
 var cloudfront = require("./cloudfront");
 var config = require("./config");
 
-cloudfront.invalidate();
+cloudfront.invalidate('test', function(err) {
+
+
+
+});
