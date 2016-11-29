@@ -1,9 +1,9 @@
 {
-  "name": "LanderDS Marketing Front",
+  "name": "LanderDS-Marketing-Front",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "test": "",
+    "test": ""
   },
   "dependencies": {
 
