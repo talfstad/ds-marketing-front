@@ -1,0 +1,15 @@
+{
+  "name": "LanderDS-Marketing-Front",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": ""
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "aws-sdk": "*",
+    "uuid": "*"
+  }
+}
