@@ -1,0 +1,262 @@
+a {
+    color: #33AADD
+}
+
+.service-box {
+    background: none;
+}
+
+.service-box p {
+    text-align: left
+}
+
+.center-title:after {
+    width: 645px;
+}
+
+.service-box {
+    padding-bottom: 0;
+}
+
+#services {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.flex-content p {
+    font-size: inherit;
+    text-transform: inherit;
+}
+
+
+/*icons */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon/icomoon.eot?kkhbdx');
+    src: url('../fonts/icomoon/icomoon.eot?kkhbdx#iefix') format('embedded-opentype'), url('../fonts/icomoon/icomoon.ttf?kkhbdx') format('truetype'), url('../fonts/icomoon/icomoon.woff?kkhbdx') format('woff'), url('../fonts/icomoon/icomoon.svg?kkhbdx#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-landers_icon:before {
+    content: "\e900";
+}
+
+.icon-campaigns_icon:before {
+    content: "\e901";
+}
+
+.icon-domains_icon:before {
+    content: "\e902";
+}
+
+
+/**/
+
+.btn {
+    font-size: 14px;
+}
+
+.add-link-plus-container {
+    text-align: right;
+    float: right;
+}
+
+.signup-form-container {
+    box-sizing: border-box;
+    color: rgb(102, 102, 102);
+    height: 42px;
+    width: 393px;
+    perspective-origin: 196.5px 21px;
+    transform-origin: 196.5px 21px;
+    border: 0px none rgb(102, 102, 102);
+    font: normal normal normal normal 14px / 17.234px 'Open Sans', Helvetica, Arial, sans-serif;
+    margin: 60px auto 0;
+    outline: rgb(102, 102, 102) none 0px;
+}
+
+
+/*#DIV_1*/
+
+.signup-container {
+    box-sizing: border-box;
+    color: rgb(102, 102, 102);
+    height: 42px;
+    position: relative;
+    width: 393px;
+    perspective-origin: 196.5px 21px;
+    transform-origin: 196.5px 21px;
+    border: 0px none rgb(102, 102, 102);
+    font: normal normal normal normal 14px / 17.234px 'Open Sans', Helvetica, Arial, sans-serif;
+    outline: rgb(102, 102, 102) none 0px;
+    padding: 0px 160px 0px 0px;
+}
+
+
+/*#DIV_2*/
+
+.signup-label {
+    box-sizing: border-box;
+    color: rgb(98, 98, 98);
+    display: block;
+    height: 42px;
+    max-width: 100%;
+    position: relative;
+    width: 233px;
+    perspective-origin: 116.5px 21px;
+    transform-origin: 116.5px 21px;
+    border: 0px none rgb(98, 98, 98);
+    font: normal normal normal normal 14px / 17.234px 'Open Sans', Helvetica, Arial, sans-serif;
+    outline: rgb(98, 98, 98) none 0px;
+}
+
+
+/*#LABEL_3*/
+
+.signup-input {
+    color: rgb(98, 98, 98);
+    height: 42px;
+    position: relative;
+    vertical-align: top;
+    opacity: .9;
+    width: 263px;
+    perspective-origin: 116.5px 21px;
+    transform-origin: 116.5px 21px;
+    border: 1px solid rgb(126, 125, 103);
+    border-radius: 3px 0 0 3px;
+    font: normal normal normal normal 14px / 17.234px 'Open Sans', Helvetica, Arial, sans-serif;
+    outline: rgba(0, 0, 0, 0) solid 1px;
+    padding: 10px;
+    transition: outline-color 0.5s ease 0s;
+}
+
+
+/*#INPUT_4*/
+
+.signup-button a {
+    color: rgb(98, 98, 98) !important;
+}
+
+.signup-button {
+    color: rgb(98, 98, 98);
+    cursor: pointer;
+    display: block;
+    height: 42px;
+    min-height: 0px;
+    position: absolute;
+    right: 0px;
+    text-transform: uppercase;
+    text-shadow: rgba(0, 0, 0, 0.0784314) 0px 1px 0px;
+    top: 0px;
+    vertical-align: top;
+    width: 130px;
+    perspective-origin: 80px 21px;
+    transform-origin: 80px 21px;
+    background: rgb(245, 245, 245) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 1px solid rgb(126, 125, 103);
+    border-right: 1px solid rgb(126, 125, 103);
+    border-bottom: 1px solid rgb(126, 125, 103);
+    border-left: 0px none rgb(126, 125, 103);
+    border-radius: 0 3px 3px 0;
+    font: normal normal normal normal 15px / 40px 'Open Sans', Helvetica, Arial, sans-serif;
+    outline: rgb(98, 98, 98) none 0px;
+    padding: 0px;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+
+/*#BUTTON_5*/
+
+.signup-button:hover {
+    background-color: #4ea5e0;
+    /*border-color: #4ea5e0;*/
+    color: #fff
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: #4ea5e0;
+}
+
+.price-box.popular h3 {
+    background-color: #4ea5e0;
+}
+
+.price-box h4 span {
+    color: #4ea5e0;
+}
+
+.description-of-beta-box {
+    text-align: left;
+    margin: 15px;
+}
+
+.navbar-inverse.smaller {
+    background-color: #000
+}
+
+.hasError {
+    border: 1px solid #dd0000;
+}
+
+#signup-success-modal h1 {
+    color: rgb(40, 40, 40);
+}
+
+#signup-success-modal p {
+    color: #777;
+}
+
+
+.navbar-inverse {
+    background: #000;
+}
+
+.sent-email-notice {
+    margin: 45px 0 25px;
+    text-align: center;
+    color: rgb(40, 40, 40);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sent-email-notice span {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.fancybox-skin{
+    background-color: #ddd;
+}
+
+.fa-spin {
+    animation: fa-spin 1.5s infinite linear;
+}
+
+.loading {
+    padding-top: 45px;
+    font-size: 35px;
+    text-align: center;
+}
