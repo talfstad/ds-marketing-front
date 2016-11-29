@@ -1,0 +1,11 @@
+deploy:
+  provider: s3
+  access_key_id: "AKIAIGEHZO373H6MTW6Q"
+  secret_access_key: "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"
+  bucket: "landerds-marketing-website"
+  acl: public_read
+  region: us-west-1
+  local_dir: public
+  cache_control: "max-age=31536000"
+after_deploy:
+  - node ./ci/invalidate.js
