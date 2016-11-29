@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Lander DS</title>
+  <!-- Bootstrap -->
+  <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="plugins/flex-slider/flexslider.css" rel="stylesheet">
+  <link href="plugins/pe-icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet">
+  <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+  <!--custom css file-->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="plugins/fancybox/jquery.fancybox.css" rel="stylesheet">
+  <!-- Admin Forms CSS -->
+  <link rel="stylesheet" type="text/css" href="css/admin-forms/css/admin-forms.css">
+  <link href="css/overrides.css" rel="stylesheet">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+  <link rel="shortcut icon" href="img/landers_icon_black.png">
+</head>
+
+<body data-spy="scroll">
+  <!-- Static navbar -->
+  <header class="navbar navbar-inverse navbar-fixed-top" style="padding: 0">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right scroll-link">
+          <li><a href="http://panel.landerds.com">Login</a></li>
+          <li><a href="#sign-up">Free Signup </a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+    <!--/.container-fluid -->
+  </header>
+  <section id="features" style="padding-top: 50px; padding-bottom: 0px">
+    <div class="flexslider">
+      <ul class="slides">
+        <li id="first-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2; background: url(&quot;images/SDWalk.jpg&quot;) no-repeat 0 -150px;" class="flex-item flex-active-slide">
+          <div class="flex-overlay">
+            <div class="flex-content" style="vertical-align: inherit;">
+              <div class="container" style="margin-top: 200px">
+                <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2 text-center">
+                    <img src="images/landerdsbig.png" alt="" draggable="false">
+                    <p style="margin-top: 10px; text-transform: inherit; font-size: 20px">
+                      Run More Campaigns with Less Brain Power. <i>Coming May 2016</i>
+                    </p>
+                    <div class="signup-form-container">
+                      <div class="signup-container">
+                        <label class="signup-label">
+                          <input onKeyPress="return checkSubmit(event)" id="feature-signup" type="text" name="sub3" class="signup-input" placeholder="Email Address" />
+                        </label>
+                        <button type="submit" class="signup-button">
+                          Free Signup
+                        </button>
+                      </div>
+                      <!-- end .smart-widget section -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section style="padding-top: 0px; padding-bottom: 0px">
+    <div class="flexslider">
+      <ul class="slides">
+        <li id="second-slide" style="height: 580px; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2; background: url(&quot;images/bgblue.png&quot;) repeat rgb(255, 255, 255);" class="flex-item flex-active-slide">
+          <div class="flex-overlay">
+            <div class="flex-content" style="vertical-align: inherit;">
+              <div class="container" style="margin-top: 50px">
+                <div class="row">
+                  <div class="col-sm-5 text-center">
+                    <div class="row">
+                      <div class="col-sm-12 service-box  wow fadeIn animated" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; border: none; animation-name: fadeIn;">
+                        <h3>On Your AWS Account</h3>
+                        <i class="fa fa-amazon"></i>
+                        <p>
+                          LanderDS uses your AWS account allowing you to maintain control of your landers and take advantage of world class cloud services, while not get bogged down in technical details.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-12 service-box  wow fadeIn animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;  border: none;animation-name: fadeIn;">
+                        <h3>With Hands Free Optimization</h3>
+                        <i class="fa fa-compress"></i>
+                        <p>
+                          Each landing page you deploy will be gzipped and have its javascript and css minimized, leading to more conversions with no added effort.
+                        </p>
+                      </div>
+                    </div>
+                    <!-- <div class="row">
+                      <div class="col-sm-12 service-box  wow fadeIn animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s;  border: none; animation-name: fadeIn;">
+                        <h3>And Limitless JS Snippets</h3>
+                        <i class="fa fa-cube"></i>
+                        <p>
+                          Effortlessly integrate mobile cloakers, entry-pops, exit-pops, no back button redirect, no-referrer, and any other custom javascript into your landers.
+                        </p>
+                      </div>
+                    </div> -->
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-1  text-center">
+                    <p style="margin-top: 10px; text-transform: inherit; font-size: 20px">
+                      Intuitively Rip and Deploy Landing Pages in Under 30 Seconds
+                    </p>
+                    <a class="fancybox fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1&amp;wmode=opaque" rel="gallery"><img src="images/30seconddeploythumb.jpg" style="display: inherit;width: 100%;margin-top: 45px;" alt="Watch how" draggable="false">
+                      <div class="service-box" style="padding: 0; border: none; position: relative;bottom: 100px;width: 100%;margin-left: 0px;">
+                        <h3 style="background: rgba(0,0,0,0.5); padding: 15px 0">
+                          Watch Video
+                        </h3>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="features3" style="padding-top: 0px; padding-bottom: 0px">
+    <div class="flexslider">
+      <ul class="slides">
+        <li id="second-slide" style="height: 580px; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2; background: url(&quot;images/bgblue.png&quot;) repeat rgb(255, 255, 255);" class="flex-item flex-active-slide">
+          <div class="flex-overlay">
+            <div class="flex-content" style="vertical-align: inherit;">
+              <div class="container" style="margin-top: 50px">
+                <div class="row">
+                  <div class="col-sm-6 text-center">
+                    <p style="margin-top: 10px; text-transform: inherit; font-size: 20px">
+                      Edit and Deploy Landing Page Edits With One Click
+                    </p>
+                    <a class="fancybox fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1&amp;wmode=opaque" rel="gallery"><img src="images/editthumb.png" style="display: inherit;width: 100%;margin-top: 45px;" alt="Watch how" draggable="false">
+                      <div class="service-box" style="padding: 0; border: none; position: relative;bottom: 100px;width: 100%;margin-left: 0px;">
+                        <h3 style="background: rgba(0,0,0,0.5); padding: 15px 0">
+                          Watch Video
+                        </h3>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-sm-5 col-sm-offset-1 text-center">
+                    <div class="row">
+                      <div class="col-sm-12 service-box wow fadeIn animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;  border: none;animation-name: fadeIn;">
+                        <h3>Using a World Class Editor</h3>
+                        <i class="fa fa-edit"></i>
+                        <p>
+                          LanderDS uses a world class in browser editor so you can have all the nice things a high end editor has without the arduous processes of manually uploading each change to test it.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-12 service-box wow fadeIn animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;  border: none;animation-name: fadeIn;">
+                        <h3>To Multiple Domains</h3>
+                        <i class="fa icon-domains_icon"></i>
+                        <p>
+                          Quickly push changes to every domain a lander belongs to. Group your landers into campaigns and deploy that whole group to domains with a single click.
+                        </p>
+                      </div>
+                    </div>
+                    <!-- <div class="row">
+                      <div class="col-sm-12 service-box  wow fadeIn animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s;  border: none; animation-name: fadeIn;">
+                        <h3>And Limitless JS Snippets</h3>
+                        <i class="fa fa-cube"></i>
+                        <p>
+                          Effortlessly integrate mobile cloakers, entry-pops, exit-pops, no back button redirect, no-referrer, and any other custom javascript into your landers.
+                        </p>
+                      </div>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="features4" style="padding-top: 0px; padding-bottom: 0px">
+    <div class="flexslider">
+      <ul class="slides">
+        <li id="second-slide" style="height: 580px; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2; background: url(&quot;images/bgblue.png&quot;) repeat rgb(255, 255, 255);" class="flex-item flex-active-slide">
+          <div class="flex-overlay">
+            <div class="flex-content" style="vertical-align: inherit;">
+              <div class="container" style="margin-top: 50px">
+                <div class="row">
+                  <div class="col-sm-5 text-center">
+                    <div class="row">
+                      <div class="col-sm-12 service-box  wow fadeIn animated" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; border: none; animation-name: fadeIn;">
+                        <h3>Increase Your Conversion Rate</h3>
+                        <i class="fa fa-code"></i>
+                        <p>
+                          Effortlessly add a cloaker, entry pop, exit pop, back button redirect, heatmap, sounds, and any other custom javascript with a button press.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-12 service-box  wow fadeIn animated" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; border: none; animation-name: fadeIn;">
+                        <h3>Create Once, Use Forever</h3>
+                        <i class="fa fa-sticky-note-o"></i>
+                        <p>
+                          Always have your list of proven converting snippets by your side, and quickly add them to your latest landing pages with the confidence to know they're correctly installed and working properly.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-sm-offset-1  text-center">
+                    <p style="margin-top: 10px; text-transform: inherit; font-size: 20px">
+                      Quickly Create &amp; Add Converting Snippets to Each Lander
+                    </p>
+                    <a class="fancybox fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1&amp;wmode=opaque" rel="gallery"><img src="images/deploywithclick.png" style="display: inherit;width: 100%;margin-top: 45px;" alt="Watch how" draggable="false">
+                      <div class="service-box" style="padding: 0; border: none; position: relative;bottom: 100px;width: 100%;margin-left: 0px;">
+                        <h3 style="background: rgba(0,0,0,0.5); padding: 15px 0">
+                          Watch Video
+                        </h3>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="sign-up" class="pricing">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4  wow fadeInUp animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+          <div class="price-box popular">
+            <h3>Super Affiliate</h3>
+            <h4>FREE BETA<span>Limited Through May 28th</span></h4>
+            <ul class="list-unstyled">
+              <li><i class="fa fa-check"></i>Unlimited Domains</li>
+              <li><i class="fa fa-check"></i>Unlimited Subdomains</li>
+              <li><i class="fa fa-check"></i>Unlimited Landers</li>
+              <li><i class="fa fa-check"></i>No Configuration Deployment</li>
+              <li><i class="fa fa-check"></i>One Click Rip From the Web</li>
+              <li><i class="fa fa-check"></i>Live Edit Landers with Syntax Highlighting</li>
+              <li><i class="fa fa-check"></i>One Click Lander Optimization</li>
+              <li><i class="fa fa-check"></i>Unlimited Snippets</li>
+              <li><i class="fa fa-check"></i>Fully Functional on Mobile</li>
+              <li><i class="fa fa-check"></i>Deployed on Your AWS account</li>
+            </ul>
+            * Recommended for high volume affiliates.
+            <!-- <a href="#" class="btn btn-primary">Sign up <i class="fa fa-angle-right"></i></a> -->
+          </div>
+        </div>
+        <div class="col-sm-8  wow fadeInUp animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+          <div class="price-box">
+            <h3><i style="margin-right: 10px" class="fa fa-arrow-left"></i> A Chance to Get Our Best</h3>
+            <div class="description-of-beta-box">
+              <h5 style="font-weight: 600">
+                            For a short time, we're excited to offer our premier Super Affiliate tier for free. Our goals behind doing this are to:
+                            </h5>
+              <ul class="list-unstyled">
+                <li><i class="fa fa-comment"></i>Gain insights into what what works and doesn't work well for you</li>
+                <li><i class="fa fa-beer"></i>Begin to build an honest and open line of communication with you</li>
+                <li><i class="fa fa-thumbs-up"></i>Give you a lot of value upfront</li>
+              </ul>
+            </div>
+            <h5 style="margin-top: 88px; font-weight: 600">
+                We look forward to helping you optimize, manage, and deploy your landing pages!
+            </h5>
+            <div style="margin-bottom: 85px" class="signup-form-container">
+              <div class="signup-container">
+                <label class="signup-label">
+                  <input onKeyPress="return checkSubmit(event)" id="feature-signup" type="text" name="sub3" class="signup-input" placeholder="Email Address" />
+                </label>
+                <button type="submit" class="signup-button">
+                  Free Signup
+                </button>
+              </div>
+              <!-- end .smart-widget section -->
+            </div>
+            <!-- <a href="#" class="btn btn-primary">Sign up <i class="fa fa-angle-right"></i></a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container text-center">
+      <a href="http://www.buildcave.com"> <img style="margin-bottom: 10px; width: 200px" src="images/buildcave_bg.png" alt="Buildcave, LLC Logo" /> </a>
+      <br>
+      <span>&copy; Copyright 2016. All Right Reserved.</span>
+    </div>
+  </footer>
+  <div style="width: 600px; height: 200px; display: none" id="signup-success-modal">
+    <div class="confirmed" style="display: none">
+      <h1><i class="fa fa-group" style="margin-right: 55px"></i>Congratulations, You're in!</h1>
+      <p style="padding-top: 10px">
+        We've just sent you a quick email with instructions on setting up your account. It will only take a second! If you have any questions please don't hesitate to chat with us.
+      </p>
+      <h3 class="sent-email-notice">
+      <i class="fa fa-paper-plane"></i> Instructions sent to: <span></span>
+    </h3>
+    </div>
+    <div class="loading">
+      <i class="fa fa-refresh fa-spin"></i>
+      <p style="margin-top: 15px; font-size: 20px">One second while we add you to our beta...</p>
+    </div> 
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script src="plugins/flex-slider/jquery.flexslider-min.js"></script>
+  <script src="plugins/fancybox/jquery.fancybox.js"></script>
+  <script src="js/jquery.isotope.min.js" type="text/javascript"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/one-page.js"></script>
+  <script>
+  // var viewport=$(window).height();
+  // $("#first-slide").css("height", viewport)
+
+  function checkSubmit(e) {
+    if (e && e.keyCode == 13) {
+      $(e.currentTarget).parent().siblings().click();
+    }
+  }
+
+
+  $(".fancybox")
+    .attr('rel', 'gallery')
+    .fancybox({
+      openEffect: 'none',
+      closeEffect: 'none',
+      nextEffect: 'none',
+      prevEffect: 'none',
+      padding: 0,
+      margin: [20, 60, 20, 60] // Increase left/right margin
+    });
+  </script>
+  <script>
+  window.intercomSettings = {
+    app_id: "wgf4en1r"
+  };
+  </script>
+  <script>
+  (function() {
+    var w = window;
+    var ic = w.Intercom;
+    if (typeof ic === "function") {
+      ic('reattach_activator');
+      ic('update', intercomSettings);
+    } else {
+      var d = document;
+      var i = function() {
+        i.c(arguments)
+      };
+      i.q = [];
+      i.c = function(args) {
+        i.q.push(args)
+      };
+      w.Intercom = i;
+
+      function l() {
+        var s = d.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'https://widget.intercom.io/widget/wgf4en1r';
+        var x = d.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+      }
+      if (w.attachEvent) {
+        w.attachEvent('onload', l);
+      } else {
+        w.addEventListener('load', l, false);
+      }
+    }
+  })()
+  </script>
+</body>
+
+</html>
